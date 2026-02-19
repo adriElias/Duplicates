@@ -22,5 +22,10 @@ public class App {
 
         System.out.println(months);
 
+        System.out.println("\n --- Months with August--- \n");
+        months.add(7, new Month("August"));
+
+        System.out.println(months);
+
     }
 }
